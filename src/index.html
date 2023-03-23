@@ -6,12 +6,64 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Homework 8</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="sass/index.scss" />
 </head>
 
 <body>
-  <h1>hello</h1>
-  <script src="js/main.js"></script>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <img src="img/logo.svg" alt="Logo">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Home</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">How it’s made?</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Our products</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="byNow__btn">Buy now</button>
+      </div>
+      <div class="header__content">
+        <div class="header__offer">
+          <div class="offer__inner">
+            <h1 class="offer__title">ice cream
+              made with
+              passion</h1>
+            <div class="offer__links">
+              <a class="products-link" href="#">Products</a>
+              <a class="made-link" href="#">How it’s made?</a>
+            </div>
+          </div>
+          <img src="img/icecream-img.png" alt="Ice cream">
+          <div class="offer__info">
+            <b>16 <span>cafes</span></b>
+            <b>23 <span>food trucks</span></b>
+          </div>
+        </div>
+        <div class="content__bottom">
+          <img src="img/more-ice-cream.png" alt="Ice cremas">
+          <p>Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable experience!
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- <img class="dots-bg" src="img/dots-bg.svg" alt=""> -->
+  </header>
+  <main class="main">
+    <section class="products"></section>
+  </main>
+  <footer class="footer"></footer>
+  <script src="index.js"></script>
 </body>
 
 </html>

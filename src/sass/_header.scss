@@ -1,0 +1,132 @@
+.header {
+  background-color: #84a178;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+  }
+  .container {
+    position: relative;
+  }
+}
+
+.byNow__btn {
+  position: relative;
+  border-radius: 10px;
+  background-color: #f8d24e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 10px;
+  height: fit-content;
+  min-width: 152px;
+  font-weight: 600;
+  font-size: 14px;
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url('../img/arrow-right.svg');
+    width: 12px;
+    height: 12px;
+    right: 1px;
+    top: 15px;
+  }
+}
+
+.menu__list {
+  display: flex;
+  gap: 0 28px;
+  &-link {
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &-link:hover {
+    color: #f8d24e;
+  }
+}
+
+.header__offer {
+  // position: relative;
+  display: flex;
+  justify-content: space-between;
+  .offer__inner {
+    max-width: 367px;
+  }
+  img {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+  }
+  .offer__title {
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 20px 0 28px 0;
+  }
+  .products-link {
+    display: inline-block;
+    min-width: 134px;
+    border: 2px solid #f8d24e;
+    border-radius: 10px;
+    padding: 12px 10px;
+    text-align: center;
+    color: #131313;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .made-link {
+    color: #f8d24e;
+    display: inline-block;
+    min-width: 134px;
+    text-decoration: underline;
+    margin-left: 34px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .offer__info {
+    margin-top: 28px;
+    b {
+      display: block;
+      text-align: end;
+      font-weight: 900;
+      font-size: 46px;
+      line-height: 56px;
+    }
+    span {
+      display: block;
+      color: #fcfcfc;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
+
+.content__bottom {
+  display: flex;
+  gap: 0 16px;
+  align-items: center;
+  padding: 42px 0 65px;
+  p {
+    position: relative;
+    max-width: 189px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  p::after {
+    content: '';
+    position: absolute;
+    background-image: url('../img/arrow.svg');
+    width: 40px;
+    height: 16px;
+    bottom: -35px;
+    left: 0;
+  }
+}
