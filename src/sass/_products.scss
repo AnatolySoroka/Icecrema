@@ -1,0 +1,89 @@
+.products {
+  padding: 58px 0 60px;
+  background-image: url('../img/products-bg-desktop.png');
+  &__title {
+    text-transform: uppercase;
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 12px 0 0;
+  }
+  &__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+    margin: 0;
+  }
+}
+
+.card__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 303px;
+}
+.card__item {
+  position: relative;
+  width: 370px;
+  min-height: 536px;
+  border-radius: 24px;
+  text-align: center;
+  img {
+    transform: translateY(-15px);
+  }
+  .card__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+    margin: 30px 0 0;
+  }
+  .card__decription {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    width: 246px;
+    margin: 66px auto 0;
+  }
+  &:first-child {
+    background-color: #aec6a5;
+  }
+  &:nth-child(2) {
+    background-color: #efd478;
+  }
+  &:last-child {
+    background-color: #d6936d;
+  }
+}
+.card__img-wrapper {
+  margin: -165px auto 0;
+  width: 302px;
+  height: 302px;
+  background: linear-gradient(
+      0deg,
+      rgba(156, 190, 143, 0.7),
+      rgba(156, 190, 143, 0.7)
+    ),
+    #d9d9d9;
+  box-shadow: 0px 8px 30px rgba(10, 136, 23, 0.25);
+  border-radius: 50%;
+}
