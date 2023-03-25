@@ -1,0 +1,61 @@
+.byNow__btn {
+  border-radius: 10px;
+  background-color: #f8d24e;
+  padding: 12px 10px;
+  text-align: center;
+  min-width: 152px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  &:hover {
+    background-color: #0a8817;
+  }
+  &:focus {
+    color: #fcfcfc;
+  }
+  &:focus path {
+    fill: #fcfcfc;
+  }
+  &:disabled {
+    background-color: #ababab;
+  }
+  svg {
+    margin-left: 3px;
+  }
+}
+
+.more-btn {
+  text-align: center;
+  min-width: 152px;
+  color: #000;
+  background-color: #f8d24e;
+  border-radius: 10px;
+  padding: 12px 10px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 54px;
+  &:hover {
+    background-color: #0a8817;
+  }
+  &:focus {
+    color: #fcfcfc;
+  }
+  &:focus path {
+    fill: #fcfcfc;
+  }
+  &:disabled {
+    background-color: #ababab;
+  }
+  svg {
+    margin-left: 3px;
+  }
+}

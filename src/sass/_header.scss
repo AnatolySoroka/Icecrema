@@ -15,33 +15,6 @@
   }
 }
 
-.byNow__btn {
-  position: relative;
-  border-radius: 10px;
-  background-color: #f8d24e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 10px;
-  text-align: center;
-  min-width: 152px;
-  font-weight: 600;
-  font-size: 14px;
-  color: #000;
-  &:hover {
-    background-color: #0a8817;
-  }
-  &:focus {
-    color: #fff;
-  }
-  &:disabled {
-    background-color: #ababab;
-  }
-  img {
-    margin-left: 8px;
-  }
-}
-
 .menu__list {
   display: flex;
   gap: 0 28px;
