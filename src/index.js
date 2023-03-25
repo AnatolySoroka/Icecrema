@@ -1,1 +1,1 @@
-import './js/swiper.js';
+import './app/swiper.js';
