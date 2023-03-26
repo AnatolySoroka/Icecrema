@@ -1,5 +1,32 @@
-@media (max-width: 848px) {
+@media (max-width: 768px) {
   //Header adaptive
+  .header {
+    background-image: url('../img/dots-bg-tablet.svg');
+    background-position: center bottom;
+  }
+  .burger-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px 0;
+    padding: 0;
+    span {
+      display: block;
+      border-radius: 10px;
+      width: 24px;
+      height: 2.5px;
+      background-color: #fff;
+    }
+  }
+  .menu {
+    display: none;
+  }
   .header__offer img {
     max-width: 268px;
   }
@@ -96,5 +123,81 @@
   .card__item:last-child .card__img-wrapper img {
     max-width: 200px;
     max-height: 200px;
+  }
+  //About adaptive
+  // .about {
+  // }
+  .about__subtitle {
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+  }
+  .about__title {
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 0.06em;
+  }
+  .about__img-wrapper {
+    width: 330px;
+    height: 330px;
+    margin-top: 72px;
+    img {
+      width: 330px;
+      height: 330px;
+    }
+  }
+  .about__info {
+    max-width: 336px;
+    letter-spacing: 0.04em;
+    color: #fcfcfc;
+    margin-top: 80px;
+    margin-left: 38px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  button.more-btn {
+    min-width: 152px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .advantages {
+    gap: 0 25px;
+  }
+
+  //Reviews adaptive
+  .reviews img {
+    max-width: 100%;
+  }
+  .swiper-slide {
+    margin-top: 0;
+  }
+  //Contacts adaptive
+
+  .contacts__item {
+    max-width: 224px;
+    padding: 40px;
+  }
+  .contacts__info,
+  .contacts__item p,
+  .contacts__item a,
+  .contacts__item span {
+    font-size: 14px;
+  }
+  //Footer adaptive
+
+  .footer__subtitle {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .footer__title {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .footer__contacts b {
+    white-space: nowrap;
   }
 }
