@@ -9,6 +9,9 @@
     max-width: 365px;
     right: 50px;
   }
+  .advantages {
+    gap: 0 25px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -130,16 +133,6 @@
   .card__items .card__item .card__img-wrapper {
     margin: -100px auto 0;
   }
-  // .card__item:nth-child(2) .card__img-wrapper,
-  // .card__item:nth-child(2) .card__img-wrapper img {
-  //   max-width: 200px;
-  //   max-height: 200px;
-  // }
-  // .card__item:last-child .card__img-wrapper,
-  // .card__item:last-child .card__img-wrapper img {
-  //   max-width: 200px;
-  //   max-height: 200px;
-  // }
   //About adaptive
   .about__subtitle {
     font-size: 22px;
@@ -177,9 +170,6 @@
     font-size: 14px;
     line-height: 18px;
   }
-  .advantages {
-    gap: 0 25px;
-  }
 
   //Reviews adaptive
   .reviews img {
@@ -214,6 +204,12 @@
   .footer__contacts b {
     white-space: nowrap;
   }
+  .card__item .card__decription {
+    margin-top: 40px;
+  }
+  .card__items {
+    gap: 170px 15px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -229,12 +225,7 @@
   .content__bottom {
     visibility: hidden;
   }
-  .card__items {
-    gap: 170px 15px;
-  }
-  .card__item .card__decription {
-    margin-top: 40px;
-  }
+
   .advantage__item b {
     font-size: 48px;
     line-height: 59px;
@@ -249,6 +240,38 @@
   }
   .about__info p {
     margin: 8px 0;
+  }
+  .contacts__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px 0;
+  }
+  .contacts__item {
+    max-width: 345px;
+  }
+  .footer__top {
+    flex-direction: column;
+  }
+  .footer__title,
+  .footer__subtitle {
+    max-width: 262px;
+  }
+  .footer__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer__title {
+    margin-top: 16px;
+    font-size: 34px;
+    line-height: 41px;
+  }
+  .footer__contacts {
+    text-align: end;
+  }
+  .social-icons {
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
 }
 
@@ -272,6 +295,14 @@
   .byNow__btn {
     display: none;
   }
+  .products__title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .products__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
   .card__items {
     margin-top: 180px;
   }
@@ -287,6 +318,9 @@
     flex-direction: column;
     align-items: center;
     gap: 32px 0;
+  }
+  .contacts__buttons {
+    flex-wrap: wrap;
   }
 }
 
@@ -306,5 +340,9 @@
     width: 279px;
     height: 279px;
   }
-  
+  .footer__contacts,
+  .footer__contacts a{
+    font-size: 12px;
+    line-height: 22px;
+  }
 }
