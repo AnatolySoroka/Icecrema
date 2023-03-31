@@ -322,6 +322,17 @@
   .contacts__buttons {
     flex-wrap: wrap;
   }
+  .menu-mobile {
+    padding: 40px 0 0;
+  }
+  .menu-mobile__list-link {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  // button.byNow__btn-mobile {
+    // margin-top: 114px;
+    // margin: 114px auto 0;
+// }
 }
 
 @media (max-width: 375px) {
@@ -341,7 +352,7 @@
     height: 279px;
   }
   .footer__contacts,
-  .footer__contacts a{
+  .footer__contacts a {
     font-size: 12px;
     line-height: 22px;
   }

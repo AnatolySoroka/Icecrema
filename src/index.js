@@ -1,1 +1,2 @@
-import './app/swiper.js';
+import './app/swiper';
+import './app/showMenu';

@@ -1,4 +1,5 @@
-.byNow__btn {
+.byNow__btn,
+.byNow__btn-mobile {
   border-radius: 10px;
   background-color: #f8d24e;
   padding: 12px 10px;
@@ -26,6 +27,11 @@
   svg {
     margin-left: 3px;
   }
+}
+
+.byNow__btn-mobile {
+  margin: 114px auto 88px;
+  display: block;
 }
 
 .more-btn {

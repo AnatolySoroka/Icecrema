@@ -38,6 +38,53 @@
     color: #f8d24e;
   }
 }
+.menu-mobile__wrapper {
+  transition: all 0.4s ease;
+  transform: translateY(-120%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #84a178;
+  padding: 0 16px;
+  height: 100vh;
+}
+.menu-mobile__wrapper.show {
+  transform: translateY(0%);
+  overflow-y: auto;
+}
+.menu-mobile__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-menu {
+  border: none;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+
+.menu-mobile {
+  padding: 70px 0 0;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+    text-align: center;
+  }
+  &__list-link {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #fcfcfc;
+  }
+  &__list-link:focus {
+    color: #131313;
+  }
+}
 
 .header__offer {
   display: flex;
